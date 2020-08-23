@@ -27,15 +27,6 @@
           "header-row#search"
         ]
       },
-
-      "header-row#menu": {
-        "children": [
-          "header-spacer",
-          "vtex.menu@2.x:menu#categories",
-          "header-spacer"
-        ]
-      },
-
       "header-row#notification": {
         "children": [
           "header-spacer",
@@ -97,6 +88,12 @@
           "text": "**Free Shipping on orders over $50**",
           "textPosition": "CENTER"
         }
+      },
+      "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
+        ]
       }
-      
 }
